@@ -1,0 +1,51 @@
+problem,feature,coefficient
+Supply Chain (demand),price,-1.95
+Supply Chain (demand),promotion,30.989
+Supply Chain (demand),season,-0.832
+Supply Chain (demand),region_factor,205.942
+Supply Chain (demand),intercept,96.373
+BFSI (card spend),income,0.303
+BFSI (card spend),credit_limit,1.506
+BFSI (card spend),txn_frequency,208.164
+BFSI (card spend),intercept,-364.502
+AdTech (revenue per user),clicks,1.997
+AdTech (revenue per user),session_time,20.001
+AdTech (revenue per user),cart_adds,49.892
+AdTech (revenue per user),intercept,1.471
+Telecom (monthly bill),data_usage,10.022
+Telecom (monthly bill),call_duration,0.495
+Telecom (monthly bill),plan_type,99.895
+Telecom (monthly bill),intercept,1.329
+Cybersecurity (latency),traffic,0.05
+Cybersecurity (latency),packet_size,0.02
+Cybersecurity (latency),connections,0.5
+Cybersecurity (latency),intercept,-0.022
+IT Infrastructure (CPU usage),requests,0.097
+IT Infrastructure (CPU usage),memory,2.003
+IT Infrastructure (CPU usage),users,0.31
+IT Infrastructure (CPU usage),intercept,-0.409
+Healthcare (risk score),age,0.302
+Healthcare (risk score),bmi,2.025
+Healthcare (risk score),glucose,0.502
+Healthcare (risk score),blood_pressure,0.402
+Healthcare (risk score),intercept,-1.042
+HR (salary),experience,1995.208
+HR (salary),performance,5013.331
+HR (salary),role_level,9983.673
+HR (salary),intercept,61.232
+Civil (concrete strength),cement,0.499
+Civil (concrete strength),water,-0.192
+Civil (concrete strength),aggregates,0.1
+Civil (concrete strength),intercept,-0.505
+Energy (energy usage),temperature,1.98
+Energy (energy usage),humidity,0.499
+Energy (energy usage),appliances,4.991
+Energy (energy usage),intercept,0.712
+EdTech (final score),study_hours,9.989
+EdTech (final score),attendance,0.498
+EdTech (final score),quiz_score,0.303
+EdTech (final score),intercept,0.003
+Automotive (mileage),speed,-0.203
+Automotive (mileage),acceleration,-1.963
+Automotive (mileage),braking,-1.521
+Automotive (mileage),intercept,50.138

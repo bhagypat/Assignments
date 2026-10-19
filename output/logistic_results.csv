@@ -1,0 +1,13 @@
+problem,target,positive_rate,accuracy,precision,recall,f1,roc_auc,TN,FP,FN,TP
+Supply Chain (stockout risk),stockout_risk,0.29,0.998,0.995,0.997,0.996,1.0,1416,3,2,579
+BFSI (fraud),fraud,0.888,1.0,0.999,1.0,1.0,1.0,224,1,0,1775
+AdTech (conversion),converted,0.994,0.999,0.998,1.0,0.999,1.0,10,3,0,1987
+Telecom (churn),churn,0.822,0.998,0.998,1.0,0.999,1.0,352,4,0,1644
+Cybersecurity (intrusion),intrusion,0.88,1.0,0.999,1.0,1.0,1.0,238,1,0,1761
+IT Infrastructure (failure risk),failure_risk,0.349,1.0,0.999,1.0,0.999,1.0,1301,1,0,698
+Healthcare (disease risk),disease_risk,0.039,0.999,1.0,0.962,0.98,1.0,1922,0,3,75
+HR (attrition),attrition,0.495,0.999,1.0,0.997,0.998,1.0,1010,0,3,987
+Civil (quality pass/fail),quality_pass,0.316,0.998,1.0,0.992,0.996,1.0,1368,0,5,627
+Energy (peak load),peak_load,0.13,0.998,1.0,0.985,0.992,1.0,1739,0,4,257
+EdTech (high performer),high_performer,0.72,0.999,0.999,1.0,0.999,1.0,558,2,0,1440
+Automotive (risky driving),risky_driving,0.429,0.994,0.991,0.994,0.992,0.9999,1133,8,5,854

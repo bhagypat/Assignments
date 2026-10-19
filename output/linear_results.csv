@@ -1,0 +1,13 @@
+problem,target,r2_train,r2_test,rmse,mae,target_mean
+Supply Chain (demand),demand,0.582,0.595,50.11,39.55,204.9
+BFSI (card spend),spend,0.759,0.756,4959.58,3947.01,48967.4
+AdTech (revenue per user),revenue,0.947,0.945,30.19,23.9,549.4
+Telecom (monthly bill),bill_amount,0.973,0.973,19.97,15.84,448.0
+Cybersecurity (latency),latency,0.878,0.884,4.95,3.95,62.6
+IT Infrastructure (CPU usage),cpu_usage,0.924,0.924,5.08,4.03,83.8
+Healthcare (risk score),risk_score,0.787,0.773,10.31,8.3,156.8
+HR (salary),salary,0.983,0.983,2979.58,2401.42,74059.7
+Civil (concrete strength),strength,0.973,0.973,10.03,7.96,174.6
+Energy (energy usage),energy_usage,0.884,0.887,9.97,7.88,132.4
+EdTech (final score),final_score,0.955,0.953,5.05,4.02,102.4
+Automotive (mileage),mileage,0.772,0.763,2.0,1.6,29.1
