@@ -1,0 +1,61 @@
+Dataset,Column,Description,Information_Availability
+Hospitality_Tourism.csv,Booking_ID,Unique reservation identifier.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Guest_ID,Anonymous guest identifier; may occur in multiple bookings.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Hotel_ID,Hotel identifier; joins to the inventory file.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Booking_Date,Date reservation was created.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Scheduled_Arrival_Date,Scheduled check-in date.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Scheduled_Departure_Date,Scheduled checkout date; not an occupied night.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Location_Type,"Business, leisure, or mixed hotel location.",At booking / recorded booking attribute
+Hospitality_Tourism.csv,Guest_Segment,Guest segment recorded at booking.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Membership_Tier,Membership tier recorded at booking.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Booking_Channel,Channel through which the booking was made.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Lead_Time_Days,Days between booking and scheduled arrival.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Scheduled_Nights,Scheduled nights per room.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Room_Category,Reserved room category.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Rooms_Booked,Number of rooms in the reservation.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Adults,Adults included in the reservation.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Children,Children included in the reservation.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Meal_Plan,Recorded meal plan; meal revenue is not modeled.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Deposit_Type,Cancellation/deposit policy category.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Discount_Pct,Discount percentage applied to the listed room rate.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Listed_Room_Rate_INR,Rate per room per night before discount.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Booked_Room_Rate_INR,Rate per room per night after discount.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Special_Requests_Count,Number of requests recorded at booking.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Prior_Completed_Stays,Completed stays observed before booking; extract history only.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Prior_Cancellations,Cancellations observed before booking; extract history only.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Booking_Status,"Final status: Completed, Cancelled, or No-show.","After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Cancellation_Date,Cancellation date; blank for other outcomes.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Actual_Nights,Completed nights per room; zero for cancelled/no-show bookings.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Occupied_Room_Nights,Actual nights multiplied by rooms booked.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Service_Incidents_Count,Service incidents during a completed stay.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Complaint_Count,Complaints during a completed stay.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Complaint_Response_Min,Response time; blank when no complaint or no stay.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Guest_Satisfaction_Score,"Post-stay survey score, 1–10; not all guests respond.","After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Booked_Value_INR,Discounted rate × scheduled nights × rooms booked.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Realized_Room_Revenue_INR,Revenue from occupied room nights only.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Cancellation_NoShow_Fee_INR,Retained fees; separate from room revenue.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Channel_Commission_Pct,Assumed commission rate for the booking channel.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Channel_Commission_INR,Commission on room revenue and retained fees.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Acquisition_Cost_INR,Recorded per-booking marketing/acquisition expense.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Net_Revenue_After_Channel_Costs_INR,Revenue plus fees minus commission and acquisition cost; not profit.,"After cancellation, arrival, stay, or settlement"
+Hospitality_Tourism.csv,Reservation_Reference,Reservation reference retained in the extract.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Customer_Profile_Code,Customer profile reference retained in the extract.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Advance_Booking_Days,Advance booking interval in days.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Scheduled_Stay_Hours,Scheduled stay duration per room in hours.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Arrival_Month,"Month of scheduled arrival, 1–12.",At booking / recorded booking attribute
+Hospitality_Tourism.csv,Hotel_Group,Hotel group name.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Country,Operating country.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Currency,Currency used for monetary fields.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Extract_Version,Export schema version.,Extraction / administration
+Hospitality_Tourism.csv,Snapshot_Date,Date at which the historical extract is considered closed.,Extraction / administration
+Hospitality_Tourism.csv,Legacy_Marketing_Code,Legacy administrative marketing code.,At booking / recorded booking attribute
+Hospitality_Tourism.csv,Archive_Folder_Number,Administrative archive folder number.,Extraction / administration
+Hospitality_Tourism.csv,Reservation_Batch_Color,Administrative batch label.,Extraction / administration
+Hospitality_Tourism.csv,Old_Agent_Reference,Legacy agent reference where populated.,Extraction / administration
+Hospitality_Tourism.csv,Migration_Remarks,Legacy migration remarks.,Extraction / administration
+Hospitality_Tourism_Room_Availability.csv,Hotel_ID,Hotel identifier.,Historical daily inventory
+Hospitality_Tourism_Room_Availability.csv,Stay_Date,Calendar night to which inventory applies.,Historical daily inventory
+Hospitality_Tourism_Room_Availability.csv,Room_Category,Room category.,Historical daily inventory
+Hospitality_Tourism_Room_Availability.csv,Physical_Rooms,Physical room count for this category.,Historical daily inventory
+Hospitality_Tourism_Room_Availability.csv,Out_Of_Service_Rooms,Rooms unavailable due to maintenance.,Historical daily inventory
+Hospitality_Tourism_Room_Availability.csv,Available_Rooms,Physical rooms minus out-of-service rooms.,Historical daily inventory
