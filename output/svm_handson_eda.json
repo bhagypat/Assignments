@@ -1,0 +1,193 @@
+{
+ "Supply Chain": {
+  "rows": 10000,
+  "numeric": 6,
+  "categorical": 3,
+  "missing": 0,
+  "outlier_cols": {
+   "daily_sales": 0.012
+  },
+  "top_corr": {
+   "daily_sales": 0.05,
+   "inventory_level": 0.02,
+   "seasonality_index": 0.02
+  },
+  "positive_rate": 0.0002,
+  "positives": 2,
+  "skipped": true
+ },
+ "Supply Chain (projected stockout)": {
+  "rows": 10000,
+  "numeric": 6,
+  "categorical": 3,
+  "missing": 0,
+  "outlier_cols": {
+   "daily_sales": 0.012
+  },
+  "top_corr": {
+   "lead_time_days": 0.65,
+   "inventory_level": 0.43,
+   "daily_sales": 0.16
+  },
+  "positive_rate": 0.6532,
+  "positives": 6532
+ },
+ "BFSI": {
+  "rows": 10000,
+  "numeric": 5,
+  "categorical": 3,
+  "missing": 0,
+  "outlier_cols": {
+   "transaction_amount": 0.05
+  },
+  "top_corr": {
+   "transactions_last_24h": 0.45,
+   "failed_login_attempts": 0.45,
+   "transaction_amount": 0.08
+  },
+  "positive_rate": 0.1635,
+  "positives": 1635
+ },
+ "AdTech": {
+  "rows": 10000,
+  "numeric": 6,
+  "categorical": 2,
+  "missing": 0,
+  "outlier_cols": {},
+  "top_corr": {
+   "cart_additions": 0.49,
+   "session_duration_sec": 0.4,
+   "clicks": 0.02
+  },
+  "positive_rate": 0.6706,
+  "positives": 6706
+ },
+ "Telecom": {
+  "rows": 10000,
+  "numeric": 6,
+  "categorical": 2,
+  "missing": 0,
+  "outlier_cols": {},
+  "top_corr": {
+   "support_calls": 0.52,
+   "complaints_last_6m": 0.5,
+   "call_minutes": 0.01
+  },
+  "positive_rate": 0.7043,
+  "positives": 7043
+ },
+ "Cybersecurity": {
+  "rows": 10000,
+  "numeric": 6,
+  "categorical": 1,
+  "missing": 0,
+  "outlier_cols": {
+   "connection_duration_sec": 0.05
+  },
+  "top_corr": {
+   "failed_logins": 0.72,
+   "packets_transferred": 0.26,
+   "destination_port": 0.02
+  },
+  "positive_rate": 0.6393,
+  "positives": 6393
+ },
+ "IT Infra": {
+  "rows": 10000,
+  "numeric": 5,
+  "categorical": 1,
+  "missing": 0,
+  "outlier_cols": {},
+  "top_corr": {
+   "cpu_usage_percent": 0.16,
+   "memory_usage_percent": 0.15,
+   "network_latency_ms": 0.01
+  },
+  "positive_rate": 0.0094,
+  "positives": 94
+ },
+ "Healthcare": {
+  "rows": 10000,
+  "numeric": 7,
+  "categorical": 0,
+  "missing": 0,
+  "outlier_cols": {},
+  "top_corr": {
+   "glucose_level": 0.56,
+   "blood_pressure": 0.46,
+   "bmi": 0.01
+  },
+  "positive_rate": 0.7161,
+  "positives": 7161
+ },
+ "HR": {
+  "rows": 10000,
+  "numeric": 6,
+  "categorical": 2,
+  "missing": 0,
+  "outlier_cols": {},
+  "top_corr": {
+   "employee_satisfaction": 0.56,
+   "overtime_hours": 0.46,
+   "performance_score": 0.01
+  },
+  "positive_rate": 0.5302,
+  "positives": 5302
+ },
+ "Construction (SVR)": {
+  "rows": 10000,
+  "numeric": 7,
+  "categorical": 0,
+  "missing": 0,
+  "outlier_cols": {},
+  "top_corr": {
+   "cement": 0.88,
+   "fly_ash": 0.19,
+   "water": 0.18
+  },
+  "y_mean": 25.9,
+  "y_std": 13.1
+ },
+ "Energy (SVR)": {
+  "rows": 10000,
+  "numeric": 4,
+  "categorical": 2,
+  "missing": 0,
+  "outlier_cols": {},
+  "top_corr": {
+   "appliance_usage_hours": 0.81,
+   "temperature_c": 0.53,
+   "humidity_percent": 0.01
+  },
+  "y_mean": 120.3,
+  "y_std": 40.9
+ },
+ "EdTech": {
+  "rows": 10000,
+  "numeric": 5,
+  "categorical": 1,
+  "missing": 0,
+  "outlier_cols": {},
+  "top_corr": {
+   "quiz_score": 0.42,
+   "attendance_percent": 0.34,
+   "assignments_completed": 0.01
+  },
+  "positive_rate": 0.0947,
+  "positives": 947
+ },
+ "Automotive": {
+  "rows": 10000,
+  "numeric": 5,
+  "categorical": 2,
+  "missing": 0,
+  "outlier_cols": {},
+  "top_corr": {
+   "reaction_time_sec": 0.58,
+   "speed_kmph": 0.47,
+   "lane_deviation": 0.01
+  },
+  "positive_rate": 0.6001,
+  "positives": 6001
+ }
+}
